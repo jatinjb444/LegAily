@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pytesseract
+pdfplumber
+pillow
+cohere
+dotenv
+torch
+transformers

@@ -1,0 +1,287 @@
+.lawyer-container {
+  min-height: 100vh;
+  padding: 32px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fefefe;
+}
+
+.lawyer-card {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  width: 100%;
+  max-width: 700px;
+  box-sizing: border-box;
+}
+
+.lawyer-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.cid-input-wrapper {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.cid-input {
+  flex-grow: 1;
+  padding: 12px 16px;
+  font-size: 1.1rem;
+  border: 2px solid #fcd9b6;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.cid-input:focus {
+  border-color: #f5a623;
+  box-shadow: 0 0 5px rgba(245, 166, 35, 0.6);
+}
+
+.view-file-button {
+  background-color: #f5a623;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.view-file-button:hover {
+  background-color: #d48806;
+}
+
+.file-viewer {
+  margin-top: 20px;
+}
+
+.file-info {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.file-link {
+  color: #f5a623;
+  text-decoration: none;
+}
+
+.file-link:hover {
+  text-decoration: underline;
+}
+
+.file-iframe {
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.unauthorized-text {
+  color: #e53e3e;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+.lawyer-container {
+  min-height: 100vh;
+  padding: 32px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fefefe;
+}
+
+.lawyer-card {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  width: 100%;
+  max-width: 700px;
+  box-sizing: border-box;
+}
+
+.lawyer-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.lawyer-description {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* Profile and Role */
+.profile-role-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fcd9b6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.role-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ea7831;
+}
+
+/* CID input & button */
+.cid-input-wrapper {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.cid-input {
+  flex-grow: 1;
+  padding: 12px 16px;
+  font-size: 1.1rem;
+  border: 2px solid #fcd9b6;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.cid-input:focus {
+  border-color: #f5a623;
+  box-shadow: 0 0 5px rgba(245, 166, 35, 0.6);
+}
+
+.view-file-button {
+  background-color: #f5a623;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.view-file-button:hover {
+  background-color: #d48806;
+}
+
+.file-viewer {
+  margin-top: 20px;
+}
+
+.file-info {
+  font-size: 1.1rem;
+  margin-bottom: 1
+6px;
+  font-weight: 600;
+  color: #333;
+}
+.lawyer-card {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;  /* or 95vh to fit better */
+  max-width: 700px;
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+.lawyer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* space items vertically */
+  height: 85vh; /* Adjust this to fit your viewport nicely */
+  max-width: 700px;
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.profile-role-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.lawyer-description {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 48px; /* More space below description */
+  color: #444;
+  line-height: 1.5;
+}
+
+.cid-input-wrapper {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: auto; /* Push input to bottom if possible */
+}
+
+.cid-input {
+  flex-grow: 1;
+  padding: 12px 16px;
+  font-size: 1.1rem;
+  border: 2px solid #fcd9b6;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.cid-input:focus {
+  border-color: #f5a623;
+  box-shadow: 0 0 5px rgba(245, 166, 35, 0.6);
+}
+
+.view-file-button {
+  background-color: #ea7831;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.view-file-button:hover {
+  background-color: #d48806;
+}
