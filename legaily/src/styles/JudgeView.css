@@ -55,10 +55,11 @@ html, body {
   white-space: nowrap;
   color: #555;
   font-size: 1.1rem;
-  padding-left: 100%;
-  animation: marquee 10s linear infinite;
+  padding-left: 0;      /* remove the left padding that pushed it off-screen */
+  animation: none;      /* disable the marquee animation */
   margin: 0;
 }
+
 
 @keyframes marquee {
   0% {
